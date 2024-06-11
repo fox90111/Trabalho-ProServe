@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #477c9c;
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.header, .footer {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
